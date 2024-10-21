@@ -106,6 +106,7 @@ With explicit feedback from the bottleneck node, the sender can respond to netwo
 To ensure that signaling is transmitted alongside the data flow, this scheme employs in-band signaling, where feedback is embedded in the headers of returning ACK packets.
 
 The feedback contents includes:
+
 - Network Capacity: The bottleneck node monitors the currently available network bandwidth in real-time and feeds back the available bandwidth capacity to the sender. The sender adjusts the RTC rate control (including sending rate and encoding bitrate) based on this information to maximize bandwidth utilization while avoiding network congestion.
 - Queue Length: The bottleneck node also monitors the length of its internal buffer queue. When the queue length increases, it indicates growing transmission delays and potential congestion. Based on this information, the sender can timely reduce the transmission rate to prevent packet loss.
 
