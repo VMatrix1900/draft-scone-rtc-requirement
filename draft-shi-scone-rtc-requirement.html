@@ -1234,9 +1234,15 @@ appear in all capitals, as shown here.<a href="#section-1.2-1" class="pilcrow">�
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-requirement-of-the-feedback" class="section-name selfRef">Requirement of the feedback signal</a>
       </h2>
 <p id="section-3-1">To ensure that signaling is transmitted alongside the data flow, this scheme employs in-band signaling, where feedback is embedded in the headers of returning ACK packets.<a href="#section-3-1" class="pilcrow">¶</a></p>
-<p id="section-3-2">The feedback contents includes:
-- Network Capacity: The bottleneck node monitors the currently available network bandwidth in real-time and feeds back the available bandwidth capacity to the sender. The sender adjusts the RTC rate control (including sending rate and encoding bitrate) based on this information to maximize bandwidth utilization while avoiding network congestion.
-- Queue Length: The bottleneck node also monitors the length of its internal buffer queue. When the queue length increases, it indicates growing transmission delays and potential congestion. Based on this information, the sender can timely reduce the transmission rate to prevent packet loss.<a href="#section-3-2" class="pilcrow">¶</a></p>
+<p id="section-3-2">The feedback contents includes:<a href="#section-3-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3-3.1">
+          <p id="section-3-3.1.1">Network Capacity: The bottleneck node monitors the currently available network bandwidth in real-time and feeds back the available bandwidth capacity to the sender. The sender adjusts the RTC rate control (including sending rate and encoding bitrate) based on this information to maximize bandwidth utilization while avoiding network congestion.<a href="#section-3-3.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-3-3.2">
+          <p id="section-3-3.2.1">Queue Length: The bottleneck node also monitors the length of its internal buffer queue. When the queue length increases, it indicates growing transmission delays and potential congestion. Based on this information, the sender can timely reduce the transmission rate to prevent packet loss.<a href="#section-3-3.2.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
 </section>
 </div>
 <div id="security-considerations">
