@@ -12,8 +12,8 @@ obsoletes:
 updates:
 # date: 2022-02-02 -- date is filled in automatically by xml2rfc if not given
 
-area: WIT
-workgroup: SCONE
+area: "Web and Internet Transport"
+workgroup: "Standard Communication with Network Elements"
 
 kw:
   - RTC
