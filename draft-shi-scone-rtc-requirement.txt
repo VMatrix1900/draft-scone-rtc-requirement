@@ -4,11 +4,12 @@
 
 Standard Communication with Network Elements                      H. Shi
 Internet-Draft                                                   X. Geng
-Intended status: Standards Track                                  Huawei
-Expires: 24 April 2025                                             Q. Wu
+Intended status: Standards Track                                  Q. Gao
+Expires: 23 October 2025                                          Huawei
+                                                                   Q. Wu
                                                                 J. Zhang
                                              Chinese Academy of Sciences
-                                                         21 October 2024
+                                                           21 April 2025
 
 
                SCONE Real Time Communication Requirement
@@ -49,11 +50,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 April 2025.
+   This Internet-Draft will expire on 23 October 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -223,6 +224,13 @@ Authors' Addresses
    Beijing
    China
    Email: gengxuesong@huawei.com
+
+
+   Qiangzhou Gao
+   Huawei
+   Beijing
+   China
+   Email: gaoqiangzhou@huawei.com
 
 
    Qinghua Wu
